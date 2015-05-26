@@ -20,7 +20,7 @@ $(document).ready(function() {
     }
     return false;
   }); // form submission
-  function StripeResponseHandler(status, response) {
+  function stripeResponseHandler(status, response) {
     // Get a reference to the form:
     var f = $("#new_user");
     // Get the token from the response:
